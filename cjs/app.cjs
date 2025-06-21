@@ -16,3 +16,9 @@ console.log(mensajeSaludo);
 
 let mensaj = noMeRindo("Estoy estresada voy a tirar la compu a la basura");
 console.log(mensaj);
+
+const funciones = require("./funcionesPorDefecto.cjs")
+
+console.log(funciones.mensaje());
+
+// console.log(funciones.sumar(3,5));
